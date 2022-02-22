@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    block content
+      h1 Welcome to the #{title} Page
+      p= paragraph
+      a(href=`/${link1}`) Go to #{link1} Page
+      br
+      a(href=`/${link2}`) Go to #{link2} Page
